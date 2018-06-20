@@ -1,7 +1,13 @@
-﻿using System;
+﻿/**
+ * c# 程序测试
+ *
+ * @author wujohns
+ * @date 18/06/20
+ */
+using System;
 using Newtonsoft.Json;
 
-namespace csharp {
+namespace csharpLearn {
     public class Account {
         public string Name { get; set; }
         public string Email { get; set; }
@@ -19,6 +25,10 @@ namespace csharp {
 
             string jsonStr = JsonConvert.SerializeObject(account, Formatting.Indented);
             Console.WriteLine(jsonStr);
+
+
+            cus.One.echo();
+            cus.Two.echo();
         }
     }
 }
