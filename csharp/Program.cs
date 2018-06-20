@@ -26,7 +26,6 @@ namespace csharpLearn {
             string jsonStr = JsonConvert.SerializeObject(account, Formatting.Indented);
             Console.WriteLine(jsonStr);
 
-
             cus.One.echo();
             cus.Two.echo();
         }
